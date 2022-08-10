@@ -1,19 +1,55 @@
-.project__title {
+.title {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.23;
-  color: #000000;
+  color: #fb6d3a;
+  text-transform: uppercase;
 }
 
 .project__list {
   list-style: none;
-
   padding: 0;
 }
 
-span {
+.project__number {
   margin-right: 13px;
   font-weight: 700;
 
+  color: #000000;
+}
+
+.project__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #a8a8a8;
+}
+
+.braket {
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.tehn {
+  display: inline-flex;
+  margin-left: 70px;
+}
+
+.tehn__braker {
+  font-weight: 700;
   color: #000000;
 }
