@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(" https://yarnpkg.com/en/package/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
@@ -21,6 +22,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.list {
+  list-style: none;
 }
 
 .wraper {
@@ -116,6 +121,10 @@ img {
   color: #000000;
 }
 
+.work {
+  margin-bottom: 40px;
+}
+
 .education {
   width: 525px;
 }
@@ -124,5 +133,74 @@ img {
   margin-right: auto;
   width: 370px;
   background-color: #1e2939;
+  padding-bottom: 40px;
+}
+
+.side-bar__title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  color: #ffffff;
+}
+
+.side-bar__contact {
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact-link:hover {
+  color: #fb6d3a;
+}
+
+.photo {
+  margin-bottom: 40px;
+}
+
+.side-bar__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+
+.side-bar__container {
+  padding-left: 40px;
+}
+
+.skills__item:before {
+  font-weight: 700;
+  color: #fb6d3a;
+  content: "•";
+  padding-right: 7px;
+}
+
+.skills__item {
+  color: #ffffff;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.soft-skills {
+  margin-bottom: 40px;
+}
+
+.social__icon {
+  margin-right: 20px;
+  fill: currentColor;
 }
 /*# sourceMappingURL=main.css.map */

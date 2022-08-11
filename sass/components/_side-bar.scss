@@ -1,5 +1,75 @@
 .side-bar {
   margin-right: auto;
   width: 370px;
-  background-color: #1e2939;
+  background-color: $side-bar-bg;
+  padding-bottom: 40px;
+}
+
+.side-bar__title {
+  margin-bottom: 8px;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  color: $side-bar__title-color;
+}
+
+.side-bar__contact {
+  margin-right: 10px;
+  color: $side-bar__title-color;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $side-bar__title-color;
+
+  &:hover {
+    color: $tittle-color;
+  }
+}
+
+.photo {
+  margin-bottom: 40px;
+}
+
+.side-bar__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+
+.side-bar__container {
+  padding-left: 40px;
+}
+
+.skills__item:before {
+  font-weight: 700;
+  color: $tittle-color;
+  content: "•";
+  padding-right: 7px;
+}
+
+.skills__item {
+  color: $side-bar__title-color;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.soft-skills {
+  margin-bottom: 40px;
+}
+
+.social__icon {
+  margin-right: 20px;
+  fill: currentColor;
 }
